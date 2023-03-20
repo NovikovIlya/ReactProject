@@ -8,7 +8,7 @@ function CarItem({car}){
             <div className={styles.info}>
                 <h2>{car.name}</h2>
                 <p>{car.price}</p>
-                <Link to={`/car/${car.id}`} className='btn'>Read more</Link>
+                <Link to={`/car/${car.id}`} className='btn'>Узнать больше</Link>
             </div>
         </div>
     )
