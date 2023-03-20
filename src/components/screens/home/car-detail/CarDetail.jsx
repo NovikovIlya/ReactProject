@@ -3,8 +3,8 @@ import { Link, useParams } from 'react-router-dom'
 import { useEffect,useState,useContext } from 'react'
 import {CarSevice} from './../../../../services/car.service'
 import CarItem from '../car-item/CarItem'
-import { AuthContext } from '../../../../providers/Auth.Provider'
-import { withAuth } from '../../../HOC/withAuth'
+
+
 
 const CarDetail = () => {
     const {id} = useParams()
@@ -16,7 +16,6 @@ const CarDetail = () => {
 
         const fetchData = async () =>{
           const data = await CarSevice.getById(id); 
-
           setCar(data)
         }
         fetchData()
@@ -29,11 +28,11 @@ const CarDetail = () => {
     
 
     return (
-        <div>
+        <div className='main'>
             <Link to='/'>Back</Link>
             <CarItem car={car}/>
         </div>
     )
 }
 
-export default withAuth(CarDetail) 
+export default CarDetail
