@@ -33,17 +33,18 @@ body{
     position: absolute ;
     background-color: aliceblue;
     border: 1px solid green;
-    top:20%;
-    right:35%;;
-    width: 400px;
+    top:19%;
+    right:31%;;
+    width: 500px;
+    height: 402px;
 }
 
 .animated{
-    opacity: 0;
+    display: none;
 }
 
 .showed{
-    opacity: 1;
+    display: block;
 }
 
 
