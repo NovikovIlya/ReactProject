@@ -102,3 +102,7 @@ body{
 .CreateCarFileds{
     text-align: center;
 }
+
+.hid{
+    display: none;
+}

@@ -24,7 +24,7 @@ const CarDetail = () => {
     if (!car?.name) return <p>Loading</p>;
 
     
-
+    
     
 
     return (
@@ -33,6 +33,7 @@ const CarDetail = () => {
             <CarItem car={car}/>
         </div>
     )
+    
 }
 
 export default CarDetail
