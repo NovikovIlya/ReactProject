@@ -17,26 +17,37 @@ body{
 .btn{
     display:block;
     padding: 10px;
-    border:1px solid white;
+    border:1px solid rgb(216, 0, 0);
     border-radius: 5px;
     background-color: aqua;
     margin: 0 auto;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+}
+.btn:hover{
+  background-color: black;
+  color: white;
 }
 
 .title{
     text-align: center;
 }
 
+.linka{
+  text-decoration: none;
+  color:white;
+}
+
 .modale {
     z-index: 1000;
     position: absolute ;
-    background-color: aliceblue;
+    background-image: url('https://thumbs.dreamstime.com/b/tarot-card-sun-jewelry-stars-magic-card-bohemian-design-tattoo-engraving-cover-witch-golden-mystical-hand-drawing-206626100.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
     border: 1px solid green;
     top:19%;
-    right:31%;;
+    right:36%;;
     width: 500px;
-    height: 402px;
+    height: 702px;
 }
 
 .animated{
@@ -52,7 +63,7 @@ body{
     margin: 10px;
     background-color: transparent;
     width: 100%;
-    height: 398px;
+    height: 698px;
     /* border: 1px solid #f1f1f1; */
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
@@ -89,7 +100,8 @@ body{
   
   /* Style the back side */
   .flip-card-back {
-    background-color: dodgerblue;
+    background-image:url('https://thumbs.dreamstime.com/b/seamless-pattern-moon-face-phases-sun-crescent-zodiac-circle-comets-planets-stars-space-engraving-style-astrology-161868889.jpg');
+    background-size: cover;
     color: white;
     transform: rotateY(180deg);
   }
@@ -105,4 +117,9 @@ body{
 
 .hid{
     display: none;
+}
+
+.sele{
+  display:flex;
+  justify-content: center;
 }
