@@ -79,7 +79,8 @@ function Home(){
               </div>
                 
             ))
-            : <p>Нет данных</p> 
+            : 
+            <p className='textHome'>Нет данных</p> 
             }
         </div>
       </div>

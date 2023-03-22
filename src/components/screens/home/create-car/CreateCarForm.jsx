@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState,useEffect } from 'react'
 import styles from './CreateCarForm.module.css'
 import axios from 'axios';
 import {create} from 'zustand'
@@ -31,6 +31,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
     console.log(value);
   }
 
+  
   const handleSubmit = (event) => {
     event.preventDefault();
     async function ha(){
@@ -44,6 +45,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
       
     }
     ha()
+
     // const formData = new FormData(event.target);
     // axios.post('https://reqres.in/api/users', formData)
     //   .then((response) => {
@@ -53,6 +55,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
     // setData(clearData)
     smenaVida();
   };
+  
 
   const MDAs = ()=>{
     console.log(value);

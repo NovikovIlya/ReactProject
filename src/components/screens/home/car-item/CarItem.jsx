@@ -11,7 +11,7 @@ import CarDetail from '../car-detail/CarDetail';
 
 
 function CarItem({car}){
-
+    
 
     
 
