@@ -16,7 +16,11 @@ import CarDetail from './car-detail/CarDetail';
 
 function Home(){
 
-    const [cars,setCars] = useState([])
+    const [cars,setCars] = useState([
+      // id: 1,
+      // data: 'asdasdasda',
+      // dataName : 's'
+    ])
     const [isLoading,setLoading] = useState(true)
     const [open,setOpen] = useState(false)
     
@@ -52,7 +56,7 @@ function Home(){
     return (
       <div className='main'>
         {/* <button onClick={inf}>CLICK</button> */}
-        <h1 className='title'>ПРЕДСКАЗАНИЯ </h1>
+        <h1 className='title'>ЭРО ГОРОСКОП </h1>
       
         {/* {user ? (<> <h2>Welcome,{user.name}{user.famil}</h2><button onClick={()=>setUser(null)}>Logout</button></>) : (<button onClick={()=>setUser({name:'Max',famil:'lol'})}>Login</button>) } */}
         <button onClick={()=>setOpen(true)}  className='btn'>Добавить данные</button>

@@ -27,6 +27,20 @@ body{
   background-color: black;
   color: white;
 }
+.btn1{
+  width: 50%;
+  display:block;
+  padding: 10px;
+  border:1px solid rgb(216, 0, 0);
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 0 auto;
+  /* margin-bottom: 10px; */
+}
+.btn1:hover{
+background-color: black;
+color: white;
+}
 
 .title{
     text-align: center;
@@ -39,7 +53,7 @@ body{
 
 .modale {
     z-index: 1000;
-    position: absolute ;
+    /* position: absolute ; */
     background-image: url('https://thumbs.dreamstime.com/b/tarot-card-sun-jewelry-stars-magic-card-bohemian-design-tattoo-engraving-cover-witch-golden-mystical-hand-drawing-206626100.jpg');
     background-repeat: no-repeat;
     background-size:cover;
@@ -137,5 +151,9 @@ body{
     position: relative;
     right: 0;
     margin: 0 auto;
+  }
+  .flip-card{
+    margin: 0 auto;
+    padding: 5px;
   }
 }
