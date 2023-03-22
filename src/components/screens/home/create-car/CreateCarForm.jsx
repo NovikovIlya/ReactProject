@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react'
 import styles from './CreateCarForm.module.css'
 import axios from 'axios';
-import {create} from 'zustand'
+
 
 const clearData = {
     price:'',
