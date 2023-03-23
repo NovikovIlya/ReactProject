@@ -77,7 +77,7 @@ function Home(){
               <div className="flip-card">
                 <div className="flip-card-inner">
                   <div className="flip-card-front">
-                    <img className='images' src="https://img.freepik.com/free-vector/hand-drawn-mystical-tarot-mobile-wallpaper_52683-80183.jpg" alt="Avatar" />
+                    <img className='images' src="https://i.ibb.co/PDKtVXX/image.jpg" alt="Avatar" />
                   </div>
                   <div className="flip-card-back">
                     <CarItem key={car.id} car={car}/>
