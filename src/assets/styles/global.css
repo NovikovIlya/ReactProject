@@ -175,14 +175,34 @@ color: white;
   .main{
     width: 100%;
   }
+  .flip-card{
+    height: 500px;
+  }
   .modale{
     width: 100%;
-    position: relative;
+    height: 100%;
+    /* position: relative; */
     right: 0;
     margin: 0 auto;
+  }
+  .modaleBtn{
+    width: 100%;
+  }
+  .btn1{
+    height: 48px;
+    display: flex;
+    align-items: center;
   }
   .flip-card{
     margin: 0 auto;
     padding: 5px;
+  }
+  .highText{
+    margin-top: 10px;
+  }
+  .para{
+    font-size: 13px;
+    padding: 40px;
+    padding-top: 10px;
   }
 }
