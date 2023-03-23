@@ -35,7 +35,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmit = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/${value}/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/${value}/today/`)
       const data = response.data.content.text[0].content
       createCar(event,data)
       
@@ -64,7 +64,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitKozerog = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/capricorn/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/capricorn/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Козерог'
       createCar(event,data,dataName)
@@ -77,7 +77,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitOven = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/aries/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/aries/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Овен'
       createCar(event,data,dataName)
@@ -90,7 +90,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitTaurus = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/taurus/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/taurus/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Телец'
       createCar(event,data,dataName)
@@ -103,7 +103,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitGemini = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/gemini/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/gemini/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Близнецы'
       createCar(event,data,dataName)
@@ -116,7 +116,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitCancer = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/cancer/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/cancer/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Рак'
       createCar(event,data,dataName)
@@ -129,7 +129,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitLeo = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/leo/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/leo/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Лев'
       createCar(event,data,dataName)
@@ -142,7 +142,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitVirgio = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/virgo/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/virgo/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Дева'
       createCar(event,data,dataName)
@@ -155,7 +155,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitLibra = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/libra/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/libra/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Весы'
       createCar(event,data,dataName)
@@ -168,7 +168,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitScorpio = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/scorpio/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/scorpio/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Скорпион'
       createCar(event,data,dataName)
@@ -181,7 +181,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitSagittarius = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/sagittarius/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/sagittarius/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Стрелец'
       createCar(event,data,dataName)
@@ -194,7 +194,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitAquarius = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/aquarius/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/aquarius/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Водолей'
       createCar(event,data,dataName)
@@ -207,7 +207,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
   const handleSubmitPisces = (event) => {
     event.preventDefault();
     async function ha(){
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/pisces/today/`)
+      const response = await axios.get(`https://proxy.cors.sh/https://horoscopes.rambler.ru/api/front/v3/horoscope/sex/pisces/today/`)
       const data = response.data.content.text[0].content
       const dataName = 'Рыбы'
       createCar(event,data,dataName)
