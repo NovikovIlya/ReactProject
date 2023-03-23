@@ -54,16 +54,20 @@ function Home(){
     const {user,setUser} = useContext(AuthContext)
   
     return (
+      <>
       <div className='main'>
+      <div className={`modale animated ${open ? 'showed' : ''}`}>
+          <CreateCarForm setCars={setCars} smenaVida={smenaVida} />
+      </div> 
         {/* <button onClick={inf}>CLICK</button> */}
         <h1 className='title'>ЭРО ГОРОСКОП </h1>
       
         {/* {user ? (<> <h2>Welcome,{user.name}{user.famil}</h2><button onClick={()=>setUser(null)}>Logout</button></>) : (<button onClick={()=>setUser({name:'Max',famil:'lol'})}>Login</button>) } */}
-        <button onClick={()=>setOpen(true)}  className='btn'>Добавить данные</button>
+        <button onClick={()=>setOpen(true)}  className='btn'>Прочитать судьбу</button>
 
-        <div className={`modale animated ${open ? 'showed' : ''}`}>
+        {/* <div className={`modale animated ${open ? 'showed' : ''}`}>
           <CreateCarForm setCars={setCars} smenaVida={smenaVida} />
-        </div> 
+        </div>  */}
 
         <div >
             {
@@ -84,11 +88,13 @@ function Home(){
                 
             ))
             : 
-            <p className='textHome'>Нет данных</p> 
+            <p className='textHome'></p> 
             }
         </div>
       </div>
+      </>
     );
+    
   }
 
 export default Home;

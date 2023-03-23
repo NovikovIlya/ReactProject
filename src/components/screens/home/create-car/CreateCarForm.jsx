@@ -222,28 +222,31 @@ const CreateCarForm = ({setCars,smenaVida}) => {
 
   return (
     <div>
+        
         {/* <button onClick={MDAs}>MDA</button> */}
         <form className={styles.form} id='formElem' onSubmit={handleSubmit}> 
+        
             {/* <input className='CreateCarFileds'  placeholder='Имя' name="name" /> */}
              {/* <input className='CreateCarFileds' value={data.price} onChange={event => setData(prev => ({...prev,price:event.target.value}))} placeholder='Фамилия' name="job" /> */} 
-            <div className=''>
+            <div className='modaleBtn'>
               {/* <select   value={value} onChange={handleChange}>
                 <option value=''></option>
                 <option value='gemini'>Близнецы</option>
                 <option value='capricorn'>Козерог</option>
               </select> */}
-              <button className='btn1'  onClick={handleSubmitKozerog}>Козерог</button>
-              <button className='btn1'  onClick={handleSubmitOven}>Овен</button>
-              <button className='btn1'  onClick={handleSubmitTaurus}>Телец</button>
-              <button className='btn1'  onClick={handleSubmitGemini}>Близнецы</button>
-              <button className='btn1'  onClick={handleSubmitCancer}>Рак</button>
-              <button className='btn1'  onClick={handleSubmitLeo}>Лев</button>
-              <button className='btn1'  onClick={handleSubmitVirgio}>Дева</button>
-              <button className='btn1'  onClick={handleSubmitLibra}>Весы</button>
-              <button className='btn1'  onClick={handleSubmitScorpio}>Скорпион</button>
-              <button className='btn1'  onClick={handleSubmitSagittarius}>Стрелец</button>
-              <button className='btn1'  onClick={handleSubmitAquarius}>Водолей</button>
-              <button className='btn1'  onClick={handleSubmitPisces}>Рыбы</button>
+              <p className='nazad' onClick={smenaVida}>←Назад</p>
+              <button className='btn1'  onClick={handleSubmitKozerog}>♑Козерог</button>
+              <button className='btn1'  onClick={handleSubmitOven}>♈Овен</button>
+              <button className='btn1'  onClick={handleSubmitTaurus}>♉Телец</button>
+              <button className='btn1'  onClick={handleSubmitGemini}>♊Близнецы</button>
+              <button className='btn1'  onClick={handleSubmitCancer}>♋Рак</button>
+              <button className='btn1'  onClick={handleSubmitLeo}>♌Лев</button>
+              <button className='btn1'  onClick={handleSubmitVirgio}>♍Дева</button>
+              <button className='btn1'  onClick={handleSubmitLibra}>♎Весы</button>
+              <button className='btn1'  onClick={handleSubmitScorpio}>♏Скорпион</button>
+              <button className='btn1'  onClick={handleSubmitSagittarius}>♐Стрелец</button>
+              <button className='btn1'  onClick={handleSubmitAquarius}>♒Водолей</button>
+              <button className='btn1'  onClick={handleSubmitPisces}>♓Рыбы</button>
             </div>
             
             

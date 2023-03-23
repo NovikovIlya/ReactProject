@@ -28,6 +28,7 @@ body{
   color: white;
 }
 .btn1{
+  text-align: left;
   width: 50%;
   display:block;
   padding: 10px;
@@ -52,16 +53,32 @@ color: white;
 }
 
 .modale {
+  overflow: visible;
     z-index: 1000;
+    position: absolute;
     /* position: absolute ; */
-    background-image: url('https://thumbs.dreamstime.com/b/tarot-card-sun-jewelry-stars-magic-card-bohemian-design-tattoo-engraving-cover-witch-golden-mystical-hand-drawing-206626100.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/011/536/252/non_2x/mystical-and-celestial-elements-with-stars-planets-moons-and-hands-cosmic-starry-zodiac-elements-occult-esoteric-design-vector.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     border: 1px solid green;
-    top:19%;
-    right:36%;;
-    width: 500px;
-    height: 702px;
+    right: 0;
+    top:0;
+    /* top:19%;
+    right:36%;; */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.modaleBtn{
+  margin: 0 auto;
+  width: 500px;
+}
+.nazad{
+  cursor: pointer;
+  text-align: center;
+}
+.nazad:hover{
+  scale: 1.1;
 }
 
 .animated{
