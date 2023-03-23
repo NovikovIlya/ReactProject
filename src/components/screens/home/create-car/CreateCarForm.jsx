@@ -235,7 +235,6 @@ const CreateCarForm = ({setCars,smenaVida}) => {
                 <option value='capricorn'>Козерог</option>
               </select> */}
               <p className='nazad' onClick={smenaVida}>←Назад</p>
-              <button className='btn1'  onClick={handleSubmitKozerog}>♑Козерог</button>
               <button className='btn1'  onClick={handleSubmitOven}>♈Овен</button>
               <button className='btn1'  onClick={handleSubmitTaurus}>♉Телец</button>
               <button className='btn1'  onClick={handleSubmitGemini}>♊Близнецы</button>
@@ -245,6 +244,7 @@ const CreateCarForm = ({setCars,smenaVida}) => {
               <button className='btn1'  onClick={handleSubmitLibra}>♎Весы</button>
               <button className='btn1'  onClick={handleSubmitScorpio}>♏Скорпион</button>
               <button className='btn1'  onClick={handleSubmitSagittarius}>♐Стрелец</button>
+              <button className='btn1'  onClick={handleSubmitKozerog}>♑Козерог</button>
               <button className='btn1'  onClick={handleSubmitAquarius}>♒Водолей</button>
               <button className='btn1'  onClick={handleSubmitPisces}>♓Рыбы</button>
             </div>
